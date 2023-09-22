@@ -1,21 +1,31 @@
 
 # Cadastro de endereço
 
-<h3>repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de calendário iterativo.</h3>
+<h3>repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de Cadastro de endereço.</h3>
 
 # Índice
 [Introducção](#introduc%C3%A7%C3%A3o)
-[Descrição](#descri%C3%A7%C3%A3o)  
-[Funcionalidades](#funcionalidades)  s
+
+[Descrição](#descri%C3%A7%C3%A3o) 
+
 [Tecnologias Utilizadas](#tecnologias-utilizadas)  
-[Fontes consultadas](#fontes-consultadas)  
+  
 [Autor](https://github.com/miguelitto16/Calendario#autor)  
 ## Introdução
-
-Este projeto é um Calendário interativo que permite que o usuário selecione um dia do mês e uma cor
+Este é um exemplo simples de um formulário HTML para cadastro de endereços. O formulário foi criado para coletar informações básicas de endereço, como CEP, rua, número, bairro, cidade e estado.
 ## Descrição
 Quando o usuário clica em "Aplicar", o dia selecionado na tabela do calendário é colorido com a cor escolhida.
+CEP: Permite que o usuário insira o CEP do endereço.
 
+`Endereço :` Campo para a rua do endereço.
+
+`Número:` Número da residência ou estabelecimento.
+
+`Bairro:` Campo para o bairro do endereço.
+
+`Cidade:` Permite que o usuário insira a cidade.
+
+`Estado:` Campo para o estado.
 
 ### Tecnologias utilizadas
 
