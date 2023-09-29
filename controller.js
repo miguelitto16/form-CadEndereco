@@ -21,3 +21,14 @@ const preencherFormulario = (endereco) => {
     document.getElementById('cidade').value = enderco.localidade;
     document.getElementById('estado').value = endereco.uf;
 }
+
+//Consumo da API da ViaCEp
+const pesquisarCep = async() => {
+    limparFormulario();
+    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+
+    if(cepValido(cep.value)){
+       const dados = await fetch(url); //esperar 
+       const addres = await dados.json();
+    }
+}
