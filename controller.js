@@ -28,7 +28,11 @@ const pesquisarCep = async() => {
     const url = `http://viacep.com.br/ws/${cep.value}/json/`;
 
     if(cepValido(cep.value)){
-       const dados = await fetch(url); //esperar 
+       const dados = await fetch(url); //aguadar
        const addres = await dados.json();
+
+       if(addres.hasOwnProperty('erro')){
+         alert('CEP não encontrado');
+       }
     }
 }
