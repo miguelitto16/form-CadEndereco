@@ -4,7 +4,7 @@
 <h3>repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de Cadastro de endereço.</h3>
 
 # Índice
-[Introducção](#introduc%C3%A7%C3%A3o)
+[Introdução](#introduc%C3%A7%C3%A3o)
 
 [Descrição](#descri%C3%A7%C3%A3o) 
 
