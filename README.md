@@ -21,7 +21,7 @@ CEP: Permite que o usuário insira o CEP do endereço.
 
 `Endereço:` Campo para a rua do endereço.
 
-`Número:` Número da residência ou estabelecimento.
+`Número:` Campo da residência ou estabelecimento.
 
 `Bairro:` Campo para o bairro do endereço.
 
@@ -32,8 +32,8 @@ CEP: Permite que o usuário insira o CEP do endereço.
 ### Tecnologias utilizadas
 
 * HTML5
-* CSS
-* Bootstrap
+* Javascript3
+* Via Cep
 * Github
 * Visual Studio Code
 
