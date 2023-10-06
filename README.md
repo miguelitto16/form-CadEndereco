@@ -6,7 +6,7 @@
 # Índice
 [Introdução](#introduc%C3%A7%C3%A3o)
 
-[Funcionalidades]
+[Funcionalidades](#funcionalidades)
 
 [Descrição](#descri%C3%A7%C3%A3o) 
 
