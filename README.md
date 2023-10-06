@@ -21,19 +21,35 @@
 
 ## Funcionalidades
 
+`FUNCIONALIDADE 1:`
+<h3>Campo Cep sendo completo corretamente</h3>
+
+![Gif](cep-correto.gif)
+
+`FUNCIONALIDADE 2:`
+<h3>Campo Cep incompleto</h3>
+
+![Gif](cep-incompleto0.gif)
+
+`FUNCIONALIDADE 3:`
+<h3>Todos campos incompletos</h3>
+
+![Gif](cep-sem-nada.gif)
+
 ## Descrição
+`async:` A palavra-chave async é usada na definição da função pesquisarCep. Ela indica que essa função é assíncrona, o que permite que ela execute operações assíncronas, como a busca na API, sem bloquear a execução do restante do código.
 
-`CEP:` Permite que o usuário insira o CEP do endereço.
+`await:` A palavra-chave await é usada dentro da função pesquisarCep para indicar que o código deve aguardar a conclusão da chamada fetch (que é uma operação assíncrona de busca na API) e a conversão dos dados para JSON antes de prosseguir com a execução. Isso evita que o código continue executando antes que os dados estejam prontos para uso.
 
-`Endereço:` Campo para a rua do endereço.
+`hasOwnProperty:` É um método disponível em objetos JavaScript. Ele é usado para verificar se um objeto possui uma determinada propriedade. No código, é usado para verificar se a resposta da API contém a propriedade 'erro'. Se essa propriedade existir na resposta, isso significa que o CEP não foi encontrado, e um alerta é exibido.
 
-`Número:` Campo da residência ou estabelecimento.
+`fetch:` A função fetch é usada para fazer uma solicitação HTTP para uma URL especificada.
+No código, a URL é construída com base no valor do CEP fornecido pelo usuário.
+A chamada fetch(url) retorna uma promessa que representa a resposta da solicitação HTTP.
 
-`Bairro:` Campo para o bairro do endereço.
 
-`Cidade:` Permite que o usuário insira a cidade.
-
-`Estado:` Campo para o estado.
+`json:`Método json() é usado em uma resposta de uma solicitação HTTP para processar o corpo da resposta como JSON.No código, a linha const addres = await dados.json(); faz a conversão do conteúdo da resposta da API (que é em JSON) em um objeto JavaScript.
+O resultado da chamada json() também é uma promessa que resolve para o objeto JavaScript que representa os dados JSON.
 
 ### Tecnologias utilizadas👌
 
@@ -42,7 +58,7 @@
 * Via Cep
 * Github
 * Visual Studio Code
-
+*
 
 ## Autor
 
