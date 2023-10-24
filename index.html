@@ -14,15 +14,50 @@
             <label for="inputZip" class="form-label">CEP</label>
             <input type="text" class="form-control" id="cep">
         </div>
-        <br>
+        <div class="col-md-6">
+            <label for="inputPhone" class="form-label">Telefone</label>
+            <input type="text" class="form-control" id="phone">
+        </div>
+        <div class="col-md-6">
+            <label for="inputDOB" class="form-label">Data de Nascimento</label>
+            <input type="date" class="form-control" id="dob">
+        </div>
+        <div class="col-md-6">
+            <label for="inputRG" class="form-label">RG</label>
+            <input type="text" class="form-control" id="rg">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="col-md-6">
+            <label for="confirmEmail" class="form-label">Confirmar Email</label>
+            <input type="email" class="form-control" id="confirmEmail">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="col-md-6">
+            <label for="confirmPassword" class="form-label">Confirmar Senha</label>
+            <input type="password" class="form-control" id="confirmPassword">
+        </div>
+        <div class="col-md-6">
+            <label for="inputGender" class="form-label">Sexo</label>
+            <select class="form-select" id="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                <option value="other">Outro</option>
+            </select>
+        </div>
         <div class="col-7">
           <label for="inputAddress" class="form-label">Endereço</label>
           <input type="text" class="form-control" id="rua" placeholder="Rua Nabuco">
         </div>
         <div class="col-3">
-            <label for="inputAddress" class="form-label">Número</label>
+            <label for="inputAddress" class="form-label">Número da rua</label>
             <input type="text" class="form-control" id="numero">
-          </div>
+        </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Bairro</label>
           <input type="text" class="form-control" id="bairro" placeholder="bairro">
@@ -36,9 +71,9 @@
           <input id="estado" class="form-control">
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
+          <button type="button" class="btn btn-primary" onclick="validarEmail();">Cadastrar</button>
         </div>
-      </form>
-      <script type="text/javascript" src="./controller.js"></script>  
+    </form>
+    <script type="text/javascript" src="./controller.js"></script>  
 </body>
 </html>
