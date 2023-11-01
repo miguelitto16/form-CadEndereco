@@ -1,7 +1,29 @@
 
 # Cadastro de endereço
 
-<h3>Repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de Cadastro de endereço.</h3>
+<h2>Inspiração</h2>
+
+`Amazon`
+
+Inspirado pela Amazon, o meu formulário de login foi criado para tornar a sua experiência de compras online mais conveniente. Pedimos que você forneça o seu endereço, isso nos ajuda a mostrar produtos disponíveis na sua região e personalizar sua navegação.
+Também adicionamos um campo para o seu nome, para tornar a interação mais amigável e permitir que os vendedores saibam para quem estão enviando os produtos.
+E, além disso, incluímos um campo para o seu número de telefone, para que possamos entrar em contato de forma eficiente caso você tenha alguma dúvida ou problema com os seus pedidos.
+
+`Shopee:`
+
+Inspirado pelo Shopee, o meu formulário de login foi projetado para tornar a experiência de compras online mais fácil e segura. Ele solicita as seguintes informações:
+Nome e sobrenome do usuário, proporcionando uma experiência mais personalizada.
+Endereço de e-mail no formato @gmail como identificador exclusivo, garantindo uma conta única e segura.
+Número de telefone para fins de segurança e comunicação rápida.
+Uma senha robusta para garantir a segurança da conta, seguindo os melhores padrões de segurança online.
+
+`Shein:`
+
+Ao projetar o formulário de login, me inspirei na abordagem da Shein. Eles começam solicitando o número de celular, o que é uma excelente forma de manter contato e enviar atualizações sobre os pedidos.
+Em seguida, adicionei a etapa de criar uma senha como uma camada adicional de segurança para a conta. Isso ajuda a proteger os dados do usuário.
+Por fim, incluí a opção de inserir o endereço, que desempenha um papel crucial na garantia da entrega dos produtos no local correto.
+
+</h3>
 
 # Índice
 [Introdução](#introdução😎)
@@ -14,7 +36,7 @@
   
 [Autor](#autor)
 
-[colaboradores](#colaboradores)
+[Colaboradores](#Colaboradores)
 
 ## Introdução😎
 <h3>Este é um exemplo simples de um formulário HTML para cadastro de endereços. O formulário foi criado para coletar informações básicas de endereço, como CEP, rua, número, bairro, cidade e estado.</h3>
@@ -66,6 +88,18 @@ O resultado da chamada json() também é uma promessa que resolve para o objeto 
 
 * [Miguel](https://github.com/miguelitto16)
 
-## colaboradores
+## Colaboradores
 * [Gabriel](https://github.com/Braboalenda04)
 * [Nicolas](https://github.com/NicolasMussi89)
+
+
+
+<h2>Recursos adicionados</h2>
+
+ <h3>Todos inspirados nos três sites</h3>
+
+* `nome`
+
+* `sobrenome`
+
+* `telefone`
