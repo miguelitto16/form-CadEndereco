@@ -4,7 +4,7 @@
 <h3>Repositório criado para a disciplina de Linguagem de Programação I para realização da atividade de criação de Cadastro de endereço.</h3>
 
 # Índice
-[Introdução](#introduc%C3%A7%C3%A3o)
+[Introdução](#introdução😎)
 
 [Funcionalidades](#funcionalidades)
 
@@ -12,9 +12,9 @@
 
 [Tecnologias Utilizadas](#tecnologias-utilizadas)  
   
-[Autor](https://github.com/miguelitto16/Calendario#autor) 
+[Autor](#autor)
 
-[colaboradores]()
+[colaboradores](#colaboradores)
 
 ## Introdução😎
 <h3>Este é um exemplo simples de um formulário HTML para cadastro de endereços. O formulário foi criado para coletar informações básicas de endereço, como CEP, rua, número, bairro, cidade e estado.</h3>
@@ -60,7 +60,7 @@ O resultado da chamada json() também é uma promessa que resolve para o objeto 
 * Via Cep
 * Github
 * Visual Studio Code
-*
+
 
 ## Autor
 
